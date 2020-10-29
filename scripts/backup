@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DATETIME=`date +%Y%m%d%H%M%S`
+tar -zcf /var/tmp/$DATETIME.tar.gz -C /var/www/html demo
+
+rm -rf /var/www/html/demo
+mkdir -p /var/www/html/demo

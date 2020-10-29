@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cd /var/www/html
-rm -rf ./demo
-mkdir -p demo
